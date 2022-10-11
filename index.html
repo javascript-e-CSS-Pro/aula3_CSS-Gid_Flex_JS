@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="pokemon.js"></script>
+
+    <title>HTML + CSS GRID E FLEX + JS</title>
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho-menu__item" href="">Principal</a>
+            <a class="cabecalho-menu__item" href="">Contato</a>
+        </nav>
+
+        <h1 class="cabecalho__titulo">Treinando JS</h1>
+
+    </header>
+
+
+    <main class="principal">
+        <div class="card-exercicio">
+            <div class="card-exercicio__entrada">
+                <input placeholder="Digite o número" type="text" name="" id="numero1">
+                <input placeholder="Digite o número" type="text" name="" id="numero2">
+                <button  onclick="executarsoma()">Somar</button>
+            </div>
+
+
+            <div class="card-exercicio__saida">
+                <span class="saida__label">Resultado:</span>
+                <span id="resultado" class="saida__resultado">
+                    <span>0</span>
+                </span>
+            </div>
+        </div>
+
+
+        <div class="card-exercicio">
+            <div class="card-exercicio__pokemon">
+                <input placeholder="ID Pokemon" type="text" name="" id="idPokemon">
+                <button id="botaoBusca" onclick="buscarPokemon()">Buscar</button>
+            </div>
+
+
+            <div class="card-exercicio-saida__pokemon">
+                <span class="saida__label">Nome::</span>
+                <span class="saida__resultado">
+                    <img id="imagempokemon" src="" alt="">
+                </span>
+            </div>
+        </div>
+    </main>
+
+
+    <footer class="rodape">
+        <span class="rodape__item">Construido por:</span>
+        <span class="rodape__item">Jeferson barbosa @ 2022</span>
+        
+    </footer>
+
+
+</body>
+
+</html>
