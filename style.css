@@ -140,7 +140,7 @@ body {
     align-items: center;
 }
 
-.card-exercicio__pokemon {
+/* .card-exercicio__pokemon {
     width: 0px;
     flex-basis: 0px;
     flex-grow: 1;
@@ -174,7 +174,7 @@ body {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-}
+} */
 
 
 
